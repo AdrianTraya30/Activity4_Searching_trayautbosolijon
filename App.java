@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class  App{
 
-    // Linear Search function
+   
     public static int linearSearch(int[] arr, int target) {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == target) {
@@ -16,7 +16,7 @@ public class  App{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Display menu
+       
         System.out.println("Choose a searching algorithm to perform:\n");
         System.out.println("1. Linear Search\n");
         System.out.println("2. Binary Search\n");
@@ -38,7 +38,7 @@ public class  App{
         System.out.print("Enter target element: ");
         int target = scanner.nextInt();
 
-        System.out.println(); // spacing
+        System.out.println();
 
         switch (choice) {
             case 1:
